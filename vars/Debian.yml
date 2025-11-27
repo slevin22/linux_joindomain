@@ -1,5 +1,6 @@
 ---
 # vars file for CentOSJoinDomain
+
 package:
   - sssd
   - sssd-tools
