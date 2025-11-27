@@ -2,6 +2,7 @@
   apt:
     name: "{{ package }}"
     state: present
+    update_cache: true
   environment: "{{ proxy_env }}"
   when:
     - use_proxy is defined
